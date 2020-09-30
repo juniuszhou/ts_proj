@@ -3,6 +3,10 @@ class Person {
     constructor(name: String) {
         this.name = name;
     }
+
+    printName() {
+        console.log(this.name)
+    }
 }
 
 let person = new Person("Junius");
@@ -13,5 +17,7 @@ class Man extends Person {
 }
 
 let man = new Man("Zhou")
+man.printName()
 console.log(man.name)
+
 

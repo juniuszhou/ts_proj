@@ -34,3 +34,13 @@ undefined
 在 JavaScript 中, undefined 是一个没有设置值的变量。
 */
 
+// tuple usage
+let my_tuple: [string, number, boolean] = ["Hello", 1, true]
+console.log(my_tuple)
+// update via index
+my_tuple[0] = "world"
+console.log(my_tuple)
+
+let nested_type: [string, [string, number]] = ["Hello", ["Hello", 1]]
+console.log(nested_type)
+
