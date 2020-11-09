@@ -8,5 +8,3 @@ ts-node first.ts
 
 ## 
 
-
-
